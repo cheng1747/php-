@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <!-- 設定網頁編碼為 UTF-8，避免中文亂碼 -->
+        <meta charset="utf-8" />
+        
+        <!-- 網頁標題 -->
+        <title>登入範例</title>
+    </head>
+    <body>
+
+        <!-- 建立登入表單，使用 POST 方法傳送資料到 2.login.php -->
+        <form method="post" action="2.login.php">
+            
+            <!-- 帳號輸入欄位 -->
+            帳號：<input type="text" name="id"><br />
+            
+            <!-- 密碼輸入欄位（內容會隱藏） -->
+            密碼：<input type="password" name="pwd"><p></p>
+            
+            <!-- 送出表單按鈕 -->
+            <input type="submit" value="登入">
+            
+            <!-- 清除輸入內容按鈕 -->
+            <input type="reset" value="清除">
+            
+        </form>
+
+    </body>
+</html>
